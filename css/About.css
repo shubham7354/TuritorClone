@@ -1,0 +1,464 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.icon-cart-in{
+    /* border: 1px solid white; */
+    padding: 7px;
+    border-radius: 30px;
+    color: white;
+}
+.icon-cart-in:hover{
+    background-color: #00d084;
+    box-shadow: 0px 0px 10px 0px white;
+}
+.icon-cart-in-bar{
+    color: white;
+    font-size: 25px;
+}
+.nav-serch-baar{
+    height: 35px;
+    width: 200px;
+    padding: 0px 10px;
+    border: 0.5px solid whitesmoke;
+    color: whitesmoke;
+    background-color: #273c66;
+}
+.logo{
+    font-size: 40px;
+    font-weight: bold;
+    color: #00d084;
+    
+    line-height: 95px;
+    letter-spacing: 3px;
+}
+/*------------*/
+
+/*------------------*/
+
+#navbar{
+   
+    width: 100%;
+    height: 95px;
+    display: flex;
+    justify-content: center;
+    background-color: #273c66;
+}
+.logo-img{
+    height: 50px;
+    margin-top: 20px;
+}
+.nav-in{
+    width: 98%;
+    display: block;
+    
+    
+    height: 100%;
+    background-color: #273c66;
+}
+.nav-in ul{
+    float: right;
+
+}
+.nav-in ul li{
+    display: inline-block;
+    line-height: 95px;
+    margin: 0 15px;  
+}
+.nav-in ul li a{
+   
+    color: white;
+    font-size: 15px;
+}
+.nav-font{
+    color: black;
+
+}
+.nav-font:hover{
+    color: #00d084;
+}
+.nav-ulii1:hover,.dropdown1:hover{
+    display: block;
+}
+#check{
+    display: none;
+} 
+.checkbtn{
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+.dropdown {
+    display: none;
+    width: 200px;
+    position:absolute;
+    z-index: 999;
+}
+
+.dropdown  li{
+    background-color: white;
+    width: 150px;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+}
+/* .dropdown  li a{
+    color: black;
+    
+}   */
+
+.home-anc.active,.home-anc:hover {
+    color: rgb(15, 235, 187);
+    
+}
+.nav-ulii:hover .dropdown1 {
+    display: block;
+}
+.nav-ulii:hover .dropdown2 {
+    display: block;
+}
+.nav-ulii:hover .dropdown3 {
+    display: block;
+}
+.nav-ulii:hover .dropdown4 {
+    display: block;
+}
+.nav-ulii:hover .dropdown5 {
+    display: block;
+}
+@media (max-width:1260px){
+    .home-anc7{
+        display: none;
+    }
+    .nav-in ul li{
+       
+        margin: 0 5px;  
+    }
+}
+@media (max-width:1150px){
+    .nav-serch-baar{
+        display: none;
+    }
+   
+}
+@media (max-width:930px){
+    .home-anc7{
+        display: none;
+    }
+    
+}
+@media(max-width:900px){
+    .checkbtn{
+        display: block;
+    }
+   
+    .nav-in ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: rgb(83, 141, 141);
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+    .nav-in ul li{
+        display:block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    .nav-in ul li a{
+        font-size: 17px;
+
+    }
+   
+    #check:checked~ul{
+        left: 0;
+    }
+
+}
+
+/*--------------------------------------nav end-------------------------------*/
+
+.Aboutpart1 {
+    height: 350px;
+    width: 100%;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    background-image: url(//demo.themewinter.com/wp/turitors/wp-content/uploads/2020/01/banner_image.jpg);
+
+}
+.meghacourse {
+    height: 450px;
+   
+    background-color: white
+    margin: auto;
+    width: 100%;
+    padding:100px 200px;
+}
+
+.courseleft {
+    height: 420px;
+    width: 600px;
+    background-color: white;
+    float: left;
+}
+
+.courseright {
+    height: 420px;
+    width: 600px;
+    background-color: white;
+    float: left;
+}
+
+.courseadv {
+    height: 180px;
+    width: 100%;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 8px 2px 8px 0px;
+    text-align: justify;
+    
+}
+.coursesubhead {
+   
+   
+}
+.coursehead {
+    height: 198px;
+    width: 100%;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+
+    color: #333333;
+}
+.courseitem {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 30%;
+    border: 2px solid#00d084;
+    border-radius: 5px;
+    color: #00d084;
+    
+    box-shadow: 0px 0px 10px 3px;
+    height: 180px;
+    width: 180px;
+    
+    text-align: center;
+   
+}
+
+.Ap01 {
+    color: #333333;
+    height: 50px;
+    width: 25%;
+    display: flex;
+    background-color: ;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.Apsubhead {
+    font-size: 19px;
+    text-decoration: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #333333;
+
+}
+
+.Aphead {
+    font-size: 23px;
+    font-family: Roboto;
+    margin: auto;
+    text-align: center;
+}
+
+.meghabanner {
+    
+    width: 100%;
+    
+}
+
+.meghabanner1 {
+   
+    width: 70%;
+   
+
+}
+
+.aboutpeoplem {
+    height: 650px;
+    width: 100%;
+    background-color: #edf4f4;
+
+
+}
+
+.peoplecontain {
+    width: 100%;
+    margin: auto;
+    border: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.peopleitem {
+    flex-basis: 22%;
+    
+    margin: 10px 0px;
+    box-shadow: 0px 0px 10px 3px;
+
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.peopleitem h3 {
+    padding: 10px 0px;
+}
+
+.peopleitem p {
+    padding: 10px;
+}
+
+.peopleitem:hover {
+    background-color: aqua;
+
+}
+
+.peopleitem:hover h3,
+.peopleitem:hover {
+    color: #edf4f4;
+}
+
+
+
+
+
+.courseline {
+    height: 120px;
+    margin-left: 5px;
+    width: 6%;
+    border-left: 2px solid rgb(200, 237, 200);
+    float: left;
+}
+
+
+.megha2ol1 {
+    height: 320px;
+    width: 1100px;
+    margin: auto;
+    background-color: 2c2c2coo;
+}
+
+.megha2ol12 {
+    height: 150px;
+    width: 450px;
+    float: left;
+    background-color: 2c2c2oo;
+    padding-top: 10px;
+    font-size: 20px;
+    font-family: Rubik;
+    color: #555555;
+}
+
+.megha2ol13 {
+    height: 250px;
+    width: 70px;
+    float: left;
+    margin: 5px;
+
+
+}
+
+.mtop {
+    height: 50px;
+    width: 420px;
+    font-size: 20px;
+    color: #555555;
+    font-family: Rubik;
+    margin: auto;
+}
+
+.mmiddle {
+    height: 110px;
+    width: 420px;
+    font-size: 34px;
+    font-family: Roboto;
+    color: #333333;
+}
+
+.meghaline {
+    border-left: 2px solid rgb(199, 236, 199);
+    height: 180px;
+    width: 60px;
+    margin: auto;
+
+}
+
+.Aimgpart7 {
+    height: 280px;
+    width: 1200px;
+    margin: auto;
+}
+
+.Aboutpart7 {
+    height: 300px;
+
+}
+
+.coursecontain {
+    width: 400px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+
+@media only screen and (min-width:300px) and (max-width:800px) {
+
+    .Aboutpart1 {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .meghabanner {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .aboutpeoplem {
+        width: 100%;
+        flex-direction: column;
+
+    }
+
+    .aboutpeoplem {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .peopleitem {
+        margin: 10px;
+    }
+
+
+}
